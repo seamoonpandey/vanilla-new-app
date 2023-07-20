@@ -12,12 +12,14 @@ A dynamic news web app that fetches news articles using the NewsAPI.org API and 
 
 ## Demo
 
-[View Demo](https://your-demo-url.com)
+There is no demo since the developer plan just accepts 100 requests.
 
 ## Screenshots
 
-![Screenshot 1](./screenshots/screenshot1.png)
-![Screenshot 2](./screenshots/screenshot2.png)
+![Screenshot from 2023-07-20 08-15-02](https://github.com/seamoonpandey/vanilla-new-app/assets/115852972/6880c0fc-6151-4e9c-b8bf-b8a401548ecf)
+
+![Screenshot from 2023-07-20 08-15-59](https://github.com/seamoonpandey/vanilla-new-app/assets/115852972/9eadcec6-6120-444f-8b5d-5c3e6c9ff832)
+
 
 ## Installation
 
