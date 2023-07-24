@@ -20,24 +20,27 @@ There is no demo since the developer plan just accepts 100 requests.
 
 ![Screenshot from 2023-07-20 08-15-59](https://github.com/seamoonpandey/vanilla-new-app/assets/115852972/9eadcec6-6120-444f-8b5d-5c3e6c9ff832)
 
-
 ## Installation
 
-1. Clone the repository to your local machine:
+    1. Clone the repository to your local machine:
 
-```
-git clone https://github.com/your-username/news-web-app.git
-```
+    ```bash
 
-2. Navigate to the project directory:
+    git clone https://github.com/your-username/news-web-app.git
 
-```
-cd news-web-app
-```
+    ```
 
-3. Open `index.html` in your web browser to view the app.
+    2. Navigate to the project directory:
 
-## Configuration
+    ```bash
+
+    cd news-web-app
+
+    ```
+
+    3. Open `index.html` in your web browser to view the app:
+
+    ## Configuration
 
 To use this app, you'll need to obtain an API key from NewsAPI.org. Once you have the API key, replace `YOUR_API_KEY` in `script.js` with your actual API key.
 
