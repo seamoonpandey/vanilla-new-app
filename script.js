@@ -1,7 +1,7 @@
 // script.js
 
 let currentArticleIndex = 0;
-const articlesPerPage = 10;
+const articlesPerPage = 6;
 let selectedCategory = '';
 let articlesData = [];
 
@@ -29,7 +29,7 @@ function updateCategoryNav(categories) {
     const liElement = document.createElement('li');
     const linkElement = document.createElement('a');
     linkElement.textContent = category.toUpperCase();
-    linkElement.href = '#';
+    linkElement.href = '';
     linkElement.addEventListener('click', () => {
       selectedCategory = category;
       currentArticleIndex = 0;
@@ -66,8 +66,8 @@ function updateNewsDisplay(articles) {
     readMoreElement.classList.add('read-more');
 
     articleElement.appendChild(titleElement);
-    articleElement.appendChild(descriptionElement);
     articleElement.appendChild(imageElement);
+    articleElement.appendChild(descriptionElement);
     articleElement.appendChild(readMoreElement);
 
     mainElement.appendChild(articleElement);

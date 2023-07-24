@@ -77,15 +77,6 @@ main {
   margin-top: 10px;
 }
 
-.news-button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 8px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .pagination-container {
   display: flex;
   justify-content: center;
@@ -98,17 +89,9 @@ main {
   gap: 10px;
 }
 
-.pagination button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .prev-button,
-.next-button {
+.next-button,
+.pagination button {
   background-color: #333;
   color: #fff;
   border: none;
